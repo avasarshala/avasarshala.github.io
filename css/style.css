@@ -247,14 +247,14 @@ h2 {
 
 body {
   font-size: 13px;
-  line-height: 1.8;
+  line-height: 1.2;
   color: #222;
   font-weight: 400;
   background: #282828;
-  padding: 90px 0; }
+  padding: 0px 0; }
 
 .container {
-  width: 1400px;
+  
   position: relative;
   margin: 0 auto;
   background: #fff; }
@@ -266,7 +266,7 @@ body {
   margin-bottom: -7px; }
 
 .register-form {
-  padding: 50px 100px 50px 70px; }
+  padding: 30px 100px 30px 70px; }
 
 .form-row {
   margin: 0 -15px; }
@@ -406,11 +406,11 @@ select {
     color: #999; }
 
 .form-submit {
-  text-align: right;
+  text-align: center;
   padding-top: 27px; }
 
 .submit {
-  width: 140px;
+  width: 180px;
   height: 40px;
   display: inline-block;
   font-family: 'Poppins';
