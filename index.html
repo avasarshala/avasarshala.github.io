@@ -21,7 +21,7 @@
                     <img src="images/signup-img.jpg" alt="">
                 </div>
                 <div class="signup-form">
-                    <form method="POST" class="register-form" id="register-form">
+                    <form method="POST" class="register-form" id="register-form" name="submit-to-google-sheet">
                         <h2>Register to Avasarshala</h2>
                         <div class="form-row">
                             <div class="form-group">
@@ -127,7 +127,7 @@
                             </div>
 						
                             <div class="form-group">
-                                <label for="District">District :</label>
+                                <label for="district">District :</label>
                                 <input type="text" name="district" id="district" required/>
                             </div>
                         </div>
@@ -158,5 +158,20 @@
     <!-- JS -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="js/main.js"></script>
+	<script src="https://wzrd.in/standalone/formdata-polyfill"></script>
+	<script src="https://wzrd.in/standalone/promise-polyfill@latest"></script>
+	<script src="https://wzrd.in/standalone/whatwg-fetch@latest"></script>
+
+	<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbw3cvBkxNIM_i-uysiXRjrq-RFBV2H0G9tw_nSSeRbJX98YI1Y/exec'
+  const form = document.forms['submit-to-google-sheet']
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => alert('You have successfully enrolled', response))
+      .catch(error => alert('Error! Could not enroll. Try again', error.message))
+  })
+</script>
 </body><!-- This templates was made by Colorlib (https://colorlib.com) -->
 </html>
