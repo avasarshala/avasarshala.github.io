@@ -39,8 +39,23 @@
                             <label for="birth_date">DOB :</label>
                             <input type="date" name="birth_date" id="birth_date" min="1980-01-01" max="2014-12-31" width="100px" required>
                         </div>
+						</div>
+                        <div class="form-radio">
+                            <label for="gender" class="radio-label">Gender :</label>
+                            <div class="form-radio-item">
+                                <input type="radio" name="gender" id="male" value="Male" checked  required>
+                                <label for="male">Male</label>
+                                <span class="check"></span>
+                            </div>
+                            <div class="form-radio-item">
+                                <input type="radio" name="gender" id="female" value="Female" required>
+                                <label for="female">Female</label>
+                                <span class="check"></span>
+                            </div>
+                        </div>
 						
-                            <div class="form-group">
+						<div class="form-row">
+						<div class="form-group">
                                 <label for="class">Class</label>
                                 <div class="form-select">
                                     <select name="class" id="class" required>
@@ -64,20 +79,11 @@
                                     <span class="select-icon"><i class="zmdi zmdi-chevron-down"></i></span>
                                 </div>
                             </div>
+							<div class="form-group">
+                                <label for="school">School :</label>
+                                <input type="text" name="school" id="school" required/>
+                            </div>
 						</div>
-                        <div class="form-radio">
-                            <label for="gender" class="radio-label">Gender :</label>
-                            <div class="form-radio-item">
-                                <input type="radio" name="gender" id="male" checked  required>
-                                <label for="male">Male</label>
-                                <span class="check"></span>
-                            </div>
-                            <div class="form-radio-item">
-                                <input type="radio" name="gender" id="female"  required>
-                                <label for="female">Female</label>
-                                <span class="check"></span>
-                            </div>
-                        </div>
 						
                         <div class="form-row">
                             <div class="form-group">
@@ -151,6 +157,7 @@
                     </form>
                 </div>
             </div>
+			
         </div>
 
     </div>
