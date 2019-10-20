@@ -1,72 +1,422 @@
 [
     {
-        "email": "user1@test.com",
+        "email": "userern01@test.com",
         "password": "123401",
-        "category": "CL1"
+        "category": "CL1",
+        "district": "Ernakulam"
     },
     {
-        "email": "user2@test.com",
+        "email": "userern02@test.com",
         "password": "123402",
-        "category": "CL2"
+        "category": "CL2",
+        "district": "Ernakulam"
     },
     {
-        "email": "user3@test.com",
+        "email": "userern03@test.com",
         "password": "123403",
-        "category": "CL3"
+        "category": "CL3",
+        "district": "Ernakulam"
     },
     {
-        "email": "user4@test.com",
+        "email": "userern04@test.com",
         "password": "123404",
-        "category": "CL4"
+        "category": "CL4",
+        "district": "Ernakulam"
     },
     {
-        "email": "user5@test.com",
+        "email": "userern05@test.com",
         "password": "123405",
-        "category": "CL5"
+        "category": "CL5",
+        "district": "Ernakulam"
     },
     {
-        "email": "user6@test.com",
+        "email": "userern06@test.com",
         "password": "123406",
-        "category": "CL6"
+        "category": "CL6",
+        "district": "Ernakulam"
     },
     {
-        "email": "user7@test.com",
+        "email": "userern07@test.com",
         "password": "123407",
-        "category": "CL7"
+        "category": "CL7",
+        "district": "Ernakulam"
     },
     {
-        "email": "user8@test.com",
+        "email": "userern08@test.com",
         "password": "123408",
-        "category": "CL8"
+        "category": "CL8",
+        "district": "Ernakulam"
     },
     {
-        "email": "user9@test.com",
+        "email": "userern09@test.com",
         "password": "123409",
-        "category": "CL9"
+        "category": "CL9",
+        "district": "Ernakulam"
     },
     {
-        "email": "user10@test.com",
+        "email": "userern10@test.com",
         "password": "123410",
-        "category": "CL10"
+        "category": "CL10",
+        "district": "Ernakulam"
     },
     {
-        "email": "user11@test.com",
+        "email": "userern11@test.com",
         "password": "123411",
-        "category": "CL11"
+        "category": "CL11",
+        "district": "Ernakulam"
     },
     {
-        "email": "user12@test.com",
+        "email": "userern12@test.com",
         "password": "123412",
-        "category": "CL12"
+        "category": "CL12",
+        "district": "Ernakulam"
     },
     {
-        "email": "userug@test.com",
+        "email": "userernug@test.com",
         "password": "1234UG",
-        "category": "UG"
+        "category": "UG",
+        "district": "Ernakulam"
     },
     {
-        "email": "userpg@test.com",
+        "email": "userernpg@test.com",
         "password": "1234PG",
-        "category": "PG"
+        "category": "PG",
+        "district": "Ernakulam"
+    },
+    {
+        "email": "usertvm01@test.com",
+        "password": "123401",
+        "category": "CL1",
+        "district": "Trivandrum"
+    },
+    {
+        "email": "usertvm02@test.com",
+        "password": "123402",
+        "category": "CL2",
+        "district": "Trivandrum"
+    },
+    {
+        "email": "usertvm03@test.com",
+        "password": "123403",
+        "category": "CL3",
+        "district": "Trivandrum"
+    },
+    {
+        "email": "usertvm04@test.com",
+        "password": "123404",
+        "category": "CL4",
+        "district": "Trivandrum"
+    },
+    {
+        "email": "usertvm05@test.com",
+        "password": "123405",
+        "category": "CL5",
+        "district": "Trivandrum"
+    },
+    {
+        "email": "usertvm06@test.com",
+        "password": "123406",
+        "category": "CL6",
+        "district": "Trivandrum"
+    },
+    {
+        "email": "usertvm07@test.com",
+        "password": "123407",
+        "category": "CL7",
+        "district": "Trivandrum"
+    },
+    {
+        "email": "usertvm08@test.com",
+        "password": "123408",
+        "category": "CL8",
+        "district": "Trivandrum"
+    },
+    {
+        "email": "usertvm09@test.com",
+        "password": "123409",
+        "category": "CL9",
+        "district": "Trivandrum"
+    },
+    {
+        "email": "usertvm10@test.com",
+        "password": "123410",
+        "category": "CL10",
+        "district": "Trivandrum"
+    },
+    {
+        "email": "usertvm11@test.com",
+        "password": "123411",
+        "category": "CL11",
+        "district": "Trivandrum"
+    },
+    {
+        "email": "usertvm12@test.com",
+        "password": "123412",
+        "category": "CL12",
+        "district": "Trivandrum"
+    },
+    {
+        "email": "usertvmug@test.com",
+        "password": "1234UG",
+        "category": "UG",
+        "district": "Trivandrum"
+    },
+    {
+        "email": "usertvmpg@test.com",
+        "password": "1234PG",
+        "category": "PG",
+        "district": "Trivandrum"
+    },
+    {
+        "email": "usercbe01@test.com",
+        "password": "123401",
+        "category": "CL1",
+        "district": "Coimbatore"
+    },
+    {
+        "email": "usercbe02@test.com",
+        "password": "123402",
+        "category": "CL2",
+        "district": "Coimbatore"
+    },
+    {
+        "email": "usercbe03@test.com",
+        "password": "123403",
+        "category": "CL3",
+        "district": "Coimbatore"
+    },
+    {
+        "email": "usercbe04@test.com",
+        "password": "123404",
+        "category": "CL4",
+        "district": "Coimbatore"
+    },
+    {
+        "email": "usercbe05@test.com",
+        "password": "123405",
+        "category": "CL5",
+        "district": "Coimbatore"
+    },
+    {
+        "email": "usercbe06@test.com",
+        "password": "123406",
+        "category": "CL6",
+        "district": "Coimbatore"
+    },
+    {
+        "email": "usercbe07@test.com",
+        "password": "123407",
+        "category": "CL7",
+        "district": "Coimbatore"
+    },
+    {
+        "email": "usercbe08@test.com",
+        "password": "123408",
+        "category": "CL8",
+        "district": "Coimbatore"
+    },
+    {
+        "email": "usercbe09@test.com",
+        "password": "123409",
+        "category": "CL9",
+        "district": "Coimbatore"
+    },
+    {
+        "email": "usercbe10@test.com",
+        "password": "123410",
+        "category": "CL10",
+        "district": "Coimbatore"
+    },
+    {
+        "email": "usercbe11@test.com",
+        "password": "123411",
+        "category": "CL11",
+        "district": "Coimbatore"
+    },
+    {
+        "email": "usercbe12@test.com",
+        "password": "123412",
+        "category": "CL12",
+        "district": "Coimbatore"
+    },
+    {
+        "email": "usercbeug@test.com",
+        "password": "1234UG",
+        "category": "UG",
+        "district": "Coimbatore"
+    },
+    {
+        "email": "usercbepg@test.com",
+        "password": "1234PG",
+        "category": "PG",
+        "district": "Coimbatore"
+    },
+    {
+        "email": "userqln01@test.com",
+        "password": "123401",
+        "category": "CL1",
+        "district": "Kollam"
+    },
+    {
+        "email": "userqln02@test.com",
+        "password": "123402",
+        "category": "CL2",
+        "district": "Kollam"
+    },
+    {
+        "email": "userqln03@test.com",
+        "password": "123403",
+        "category": "CL3",
+        "district": "Kollam"
+    },
+    {
+        "email": "userqln04@test.com",
+        "password": "123404",
+        "category": "CL4",
+        "district": "Kollam"
+    },
+    {
+        "email": "userqln05@test.com",
+        "password": "123405",
+        "category": "CL5",
+        "district": "Kollam"
+    },
+    {
+        "email": "userqln06@test.com",
+        "password": "123406",
+        "category": "CL6",
+        "district": "Kollam"
+    },
+    {
+        "email": "userqln07@test.com",
+        "password": "123407",
+        "category": "CL7",
+        "district": "Kollam"
+    },
+    {
+        "email": "userqln08@test.com",
+        "password": "123408",
+        "category": "CL8",
+        "district": "Kollam"
+    },
+    {
+        "email": "userqln09@test.com",
+        "password": "123409",
+        "category": "CL9",
+        "district": "Kollam"
+    },
+    {
+        "email": "userqln10@test.com",
+        "password": "123410",
+        "category": "CL10",
+        "district": "Kollam"
+    },
+    {
+        "email": "userqln11@test.com",
+        "password": "123411",
+        "category": "CL11",
+        "district": "Kollam"
+    },
+    {
+        "email": "userqln12@test.com",
+        "password": "123412",
+        "category": "CL12",
+        "district": "Kollam"
+    },
+    {
+        "email": "userqlnug@test.com",
+        "password": "1234UG",
+        "category": "UG",
+        "district": "Kollam"
+    },
+    {
+        "email": "userqlnpg@test.com",
+        "password": "1234PG",
+        "category": "PG",
+        "district": "Kollam"
+    },
+    {
+        "email": "userblr01@test.com",
+        "password": "123401",
+        "category": "CL1",
+        "district": "Bangalore"
+    },
+    {
+        "email": "userblr02@test.com",
+        "password": "123402",
+        "category": "CL2",
+        "district": "Bangalore"
+    },
+    {
+        "email": "userblr03@test.com",
+        "password": "123403",
+        "category": "CL3",
+        "district": "Bangalore"
+    },
+    {
+        "email": "userblr04@test.com",
+        "password": "123404",
+        "category": "CL4",
+        "district": "Bangalore"
+    },
+    {
+        "email": "userblr05@test.com",
+        "password": "123405",
+        "category": "CL5",
+        "district": "Bangalore"
+    },
+    {
+        "email": "userblr06@test.com",
+        "password": "123406",
+        "category": "CL6",
+        "district": "Bangalore"
+    },
+    {
+        "email": "userblr07@test.com",
+        "password": "123407",
+        "category": "CL7",
+        "district": "Bangalore"
+    },
+    {
+        "email": "userblr08@test.com",
+        "password": "123408",
+        "category": "CL8",
+        "district": "Bangalore"
+    },
+    {
+        "email": "userblr09@test.com",
+        "password": "123409",
+        "category": "CL9",
+        "district": "Bangalore"
+    },
+    {
+        "email": "userblr10@test.com",
+        "password": "123410",
+        "category": "CL10",
+        "district": "Bangalore"
+    },
+    {
+        "email": "userblr11@test.com",
+        "password": "123411",
+        "category": "CL11",
+        "district": "Bangalore"
+    },
+    {
+        "email": "userblr12@test.com",
+        "password": "123412",
+        "category": "CL12",
+        "district": "Bangalore"
+    },
+    {
+        "email": "userblrug@test.com",
+        "password": "1234UG",
+        "category": "UG",
+        "district": "Bangalore"
+    },
+    {
+        "email": "userblrpg@test.com",
+        "password": "1234PG",
+        "category": "PG",
+        "district": "Bangalore"
     }
 ]
