@@ -2,16 +2,16 @@
     {
         "email": "user1@test.com",
         "password": "123456",
-        "class": "UG"
+        "category": "UG"
     },
     {
         "email": "user2@test.com",
         "password": "qwerty",
-        "class": "PG"
+        "category": "PG"
     },
     {
         "email": "user3@test.com",
         "password": "234567",
-        "class": "CL1"
+        "category": "CL1"
     }
 ]
