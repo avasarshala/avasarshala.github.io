@@ -1,17 +1,72 @@
 [
     {
         "email": "user1@test.com",
-        "password": "123456",
-        "category": "UG"
+        "password": "123401",
+        "category": "CL1"
     },
     {
         "email": "user2@test.com",
-        "password": "qwerty",
-        "category": "PG"
+        "password": "123402",
+        "category": "CL2"
     },
     {
         "email": "user3@test.com",
-        "password": "234567",
-        "category": "CL1"
+        "password": "123403",
+        "category": "CL3"
+    },
+    {
+        "email": "user4@test.com",
+        "password": "123404",
+        "category": "CL4"
+    },
+    {
+        "email": "user5@test.com",
+        "password": "123405",
+        "category": "CL5"
+    },
+    {
+        "email": "user6@test.com",
+        "password": "123406",
+        "category": "CL6"
+    },
+    {
+        "email": "user7@test.com",
+        "password": "123407",
+        "category": "CL7"
+    },
+    {
+        "email": "user8@test.com",
+        "password": "123408",
+        "category": "CL8"
+    },
+    {
+        "email": "user9@test.com",
+        "password": "123409",
+        "category": "CL9"
+    },
+    {
+        "email": "user10@test.com",
+        "password": "123410",
+        "category": "CL10"
+    },
+    {
+        "email": "user11@test.com",
+        "password": "123411",
+        "category": "CL11"
+    },
+    {
+        "email": "user12@test.com",
+        "password": "123412",
+        "category": "CL12"
+    },
+    {
+        "email": "userug@test.com",
+        "password": "1234UG",
+        "category": "UG"
+    },
+    {
+        "email": "userpg@test.com",
+        "password": "1234PG",
+        "category": "PG"
     }
 ]
