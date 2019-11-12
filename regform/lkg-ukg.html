@@ -179,6 +179,7 @@
 			fetch(scriptURL, { method: 'POST', body: new FormData(form)})
 			.then(response => alert('You have successfully enrolled', response))
 			.catch(error => alert('Error! Could not enroll. Try again', error.message))
+			document.forms[0].reset();
 		})
 	</script>
 </body><!-- This templates was made by Colorlib (https://colorlib.com) -->
