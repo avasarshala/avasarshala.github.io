@@ -8,15 +8,7 @@
     <meta charset="UTF-8">
     <!-- Title Page-->
 	<link rel="icon" href="images/favicon.png">
-    <title>Avasarshala Student Registration</title>
-	
-	<!-- Google Tag Manager -->
-	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-	})(window,document,'script','dataLayer','GTM-KB3F47Z');</script>
-	<!-- End Google Tag Manager -->
+    <title>Avasarshala Kindergarten Registration</title>
 
     <!-- Icons font CSS-->
     <link href="vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
@@ -33,18 +25,12 @@
 </head>
 
 <body>
-
-	<!-- Google Tag Manager (noscript) -->
-	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KB3F47Z"
-	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-	<!-- End Google Tag Manager (noscript) -->
-
-    <div class="page-wrapper bg-red p-t-30 p-b-30 font-robo">
+    <div class="page-wrapper bg-red p-t-100 p-b-100 font-robo">
         <div class="wrapper wrapper--w960">
             <div class="card card-2">
                 <div class="card-heading"></div>
                 <div class="card-body">
-                    <h2 class="title">Avasarshala Student Registration</h2>
+                    <h2 class="title">Avasarshala Kindergarten Registration</h2>
                     <form method="POST" name="submit-to-google-sheet">
                         <div class="input-group">
                             <input class="input--style-2" type="text" placeholder="Student Name" name="studentname" required>
@@ -78,18 +64,8 @@
                             <div class="rs-select2 js-select-simple select--no-search">
                                 <select name="class" required>
                                     <option disabled="disabled" selected="selected">Class</option>
-                                    <option value="1">Class 1</option>
-                                    <option value="2">Class 2</option>
-                                    <option value="3">Class 3</option>
-									<option value="4">Class 4</option>
-									<option value="5">Class 5</option>
-									<option value="6">Class 6</option>
-									<option value="7">Class 7</option>
-									<option value="8">Class 8</option>
-									<option value="9">Class 9</option>
-									<option value="10">Class 10</option>
-									<option value="11">Class 11</option>
-									<option value="12">Class 12</option>
+                                    <option value="LKG">LKG</option>
+                                    <option value="UKG">UKG</option>
                                 </select>
                                 <div class="select-dropdown"></div>
                             </div>
@@ -170,16 +146,8 @@
 					    </div>
 						
 						<div>
-						<h5>Enroll for a Free Trial for a week.<br>Subsequent subscription at ₹500 per Academic Year.</h5>
-						<br>
+						<h5>Enroll for Free Subscription while in Kindergarten.<br>Join us in our Whatsapp Group upon registration.</h5>
 						</div>
-						
-						<!--
-						<div style="float:left">
-						<p style="float:left"><input type="checkbox" name="tandc" value="yes" required style="float:left">I have read and agree to the <a href="tandc.html" target="_blank">Terms and Conditions</a></p> 
-						</div>
-						-->
-						
                         <div class="p-t-30">
                             <button class="btn btn--radius btn--green" type="submit" name="submit" id="submit">Register</button>
                         </div>
@@ -202,9 +170,8 @@
     <!-- JS -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="js/main.js"></script>
-
 	<script>
-		const scriptURL = 'https://script.google.com/macros/s/AKfycbzMgWXajC1h_uzc8E6ekJSvmtRggEAy4KYXVcTGa_edNxXwMMg/exec'
+		const scriptURL = 'https://script.google.com/macros/s/AKfycbxIVIJIqqtmYWabEg1SGoLurYAssTHYO8UFZiIL_ch0IkfsZWqA/exec'
 		const form = document.forms['submit-to-google-sheet']
 
 		form.addEventListener('submit', e => {
@@ -214,7 +181,6 @@
 			.catch(error => alert('Error! Could not enroll. Try again', error.message))
 			document.forms[0].reset();
 		})
-		
 	</script>
 </body><!-- This templates was made by Colorlib (https://colorlib.com) -->
 
