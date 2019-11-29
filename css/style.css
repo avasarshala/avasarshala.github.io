@@ -517,7 +517,7 @@ ul {
 
 /* line 24, E:/172 Etrain Education/172_Etrain_Education_html/sass/_button.scss */
 .btn_1 {
-  display: inline-block;
+  display: inline;
   padding: 13.5px 45px;
   border-radius: 50px;
   font-size: 14px;
@@ -2508,10 +2508,11 @@ ul {
   height: 880px;
 }
 
-/* line 34, E:/172 Etrain Education/172_Etrain_Education_html/sass/_banner.scss */
+/* line 34, E:/172 Etrain Education/172_Etrain_Education_html/sass/_banner.scss */ /*Added New */
 .banner_part .banner_text .banner_text_iner {
   display: table-cell;
   vertical-align: middle;
+  padding: 0px 0px 50px;
 }
 
 @media (max-width: 576px) {
