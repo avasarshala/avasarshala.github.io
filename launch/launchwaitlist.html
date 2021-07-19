@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  
+	<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KB3F47Z');</script>
+<!-- End Google Tag Manager -->
+  
+  
+  
+    <!-- Required meta tags-->
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta charset="UTF-8" />
+    <!-- Title Page-->
+    <link rel="icon" href="images/favicon.png" />
+    <title>LAUNCH WaitList</title>
+
+     
+
+    <!-- Icons font CSS-->
+    <link
+      href="vendor/mdi-font/css/material-design-iconic-font.min.css"
+      rel="stylesheet"
+      media="all"
+    />
+    <link
+      href="vendor/font-awesome-4.7/css/font-awesome.min.css"
+      rel="stylesheet"
+      media="all"
+    />
+    <!-- Font special for pages-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i"
+      rel="stylesheet"
+    />
+
+    <!-- Vendor CSS-->
+    <link href="vendor/select2/select2.min.css" rel="stylesheet" media="all" />
+    <link
+      href="vendor/datepicker/daterangepicker.css"
+      rel="stylesheet"
+      media="all"
+    />
+
+    <!-- Main CSS-->
+    <link href="css/main.css" rel="stylesheet" media="all" />
+  </head>
+
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-KB3F47Z"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden;"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <div class="page-wrapper bg-red p-t-30 p-b-30 font-robo">
+      <div class="wrapper wrapper--w960">
+        <div class="card card-2">
+          <div class="card-heading"></div>
+          <div class="card-body">
+			<p style="text-align:center;"><img src="images/launchlogo.png" alt="Launch Logo" style="width:300px"></p>
+            <h3 class="title">Join the WaitList</h3>
+            <form method="POST" name="submit-to-google-sheet">
+              <div class="input-group">
+                <input class="input--style-2" type="text" id="studentname" placeholder="Student Name" name="studentname" required>
+              </div>
+              <div class="input-group">
+                <input class="input--style-2" type="text" id="parentname" placeholder="Parent Name" name="parentname" required>
+              </div>
+              <div class="row row-space">
+                <div class="col-2">
+                  <div class="input-group">
+                    <div class="rs-select2 js-select-simple select--no-search">
+                      <select name="class" required>
+                        <option disabled="disabled" selected="selected">Class</option>
+                        <option value="1">Class 1</option>
+                        <option value="2">Class 2</option>
+                        <option value="3">Class 3</option>
+                        <option value="4">Class 4</option>
+                        <option value="5">Class 5</option>
+                        <option value="6">Class 6</option>
+                        <option value="7">Class 7</option>
+                        <option value="8">Class 8</option>
+                        <option value="9">Class 9</option>
+                        <option value="10">Class 10</option>
+                        <option value="11">Class 11</option>
+                        <option value="12">Class 12</option>
+                      </select>
+                      <div class="select-dropdown"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-2">
+                  <div class="input-group">
+                    <input class="input--style-2" type="text" id="city" placeholder="City" name="city" required>
+                  </div>
+                </div>
+              </div>
+              <div class="row row-space">
+                <div class="col-2">
+                  <div class="input-group">
+                    <input class="input--style-2" type="email" id="email" placeholder="Parent Email Id" name="email" required>
+                  </div>
+                </div>
+                <div class="col-2">
+                  <div class="input-group">
+                    <input id="whatsapp-number" class="input--style-2" type="number" placeholder="Parent Whatsapp Number" name="number" min="10000000" max="999999999999999" title="Please enter a valid phone number" oninvalid="setCustomValidity('Please enter a valid phone number')" onchange="setCustomValidity('')" required>
+                  </div>
+                </div>
+              </div>
+
+              <div>
+                <h5>
+                  Current Cohort for 24th July is Full. Apply here for being in waitlist for the next Cohort.<br></h5>
+                <br>
+              </div>
+
+              <!--
+						<div style="float:left">
+						<p style="float:left"><input type="checkbox" name="tandc" value="yes" required style="float:left">I have read and agree to the <a href="tandc.html" target="_blank">Terms and Conditions</a></p> 
+						</div>
+						-->
+
+              <div class="p-t-30">
+                <button class="btn btn--radius btn--green" type="submit" name="submit" id="submit">Join WaitList</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Jquery JS-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+	<script src="js/jquery.validate.min.js"></script>
+    <!-- Vendor JS-->
+    <script src="vendor/select2/select2.min.js"></script>
+    <script src="vendor/datepicker/moment.min.js"></script>
+    <script src="vendor/datepicker/daterangepicker.js"></script>
+
+    <!-- Main JS-->
+    <script src="js/global.js"></script>
+
+    <!-- JS -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbyaDMy3EBqKdcjdvecF9RFEHn82sLnYdlZ7iMZxlL2XykW_p7w/exec";
+      const form = document.forms["submit-to-google-sheet"];
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        window.open(
+          "https://api.whatsapp.com/send?phone=+917306692177&text=Hi,%20I%20have%20joined%20waitlist%20for%20LAUNCH%20Program",
+          "_blank"
+        );
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => alert("You have successfully joined the waitlist", response))
+          .catch((error) =>
+            alert("Error! Could not enroll. Try again", error.message)
+          );
+        document.forms[0].reset();
+      });
+    </script>
+  </body>
+  <!-- This templates was made by Colorlib (https://colorlib.com) -->
+</html>
+<!-- end document-->
